@@ -1,6 +1,13 @@
 <template>
   <div id="app">
     <app-menu></app-menu>
+
+      <el-row class="tac">
+        
+        <app-sidebar></app-sidebar>
+        <app-main-section></app-main-section>
+
+      </el-row>
   </div>
 </template>
 
