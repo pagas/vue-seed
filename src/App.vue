@@ -1,13 +1,12 @@
 <template>
-  <div id="app">
+  <div >
     <app-menu></app-menu>
 
       <el-row class="tac">
-        
         <app-sidebar></app-sidebar>
-        <app-main-section></app-main-section>
-
+        <router-view></router-view>
       </el-row>
+
   </div>
 </template>
 
